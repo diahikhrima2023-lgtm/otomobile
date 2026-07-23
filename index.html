@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otomobile | Smart Auto Solutions</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f6f8fc;
+        color: #1f2937;
+      }
+
+      .container {
+        width: min(960px, 92%);
+        margin: 0 auto;
+      }
+
+      header {
+        background: #0f172a;
+        color: #fff;
+        padding: 1rem 0;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .brand {
+        font-size: 1.1rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      .hero {
+        padding: 5rem 0 4rem;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: clamp(2rem, 6vw, 3.25rem);
+        margin: 0 0 0.75rem;
+      }
+
+      .hero p {
+        margin: 0 auto 1.5rem;
+        max-width: 620px;
+        color: #4b5563;
+        line-height: 1.6;
+      }
+
+      .cta {
+        display: inline-block;
+        padding: 0.8rem 1.2rem;
+        border-radius: 999px;
+        background: #2563eb;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 4rem;
+      }
+
+      .feature {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.75rem;
+        padding: 1rem;
+      }
+
+      .feature h2 {
+        margin-top: 0;
+        font-size: 1.05rem;
+      }
+
+      footer {
+        padding: 1rem 0 2rem;
+        text-align: center;
+        color: #6b7280;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="brand">OTOMOBILE</div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Drive Smarter with Otomobile</h1>
+        <p>
+          Otomobile helps drivers and automotive businesses manage vehicles,
+          bookings, and customer experiences in one streamlined platform.
+        </p>
+        <a class="cta" href="#features">Explore Features</a>
+      </section>
+
+      <section id="features" class="features">
+        <article class="feature">
+          <h2>Vehicle Management</h2>
+          <p>Track vehicle data, service schedules, and status in real time.</p>
+        </article>
+        <article class="feature">
+          <h2>Booking Flow</h2>
+          <p>Simplify reservations with a fast, mobile-friendly process.</p>
+        </article>
+        <article class="feature">
+          <h2>Business Insights</h2>
+          <p>Monitor performance and make better decisions with clear reports.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">© 2026 Otomobile. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
