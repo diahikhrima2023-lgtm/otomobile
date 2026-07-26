@@ -1,0 +1,1 @@
+<?php $lisans_anahtar='WarezM'; ?>
